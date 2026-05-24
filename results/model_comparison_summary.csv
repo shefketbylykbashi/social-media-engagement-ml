@@ -1,0 +1,8 @@
+model,avg_regression_r2,avg_classification_auc,inference_speed_ms,memory_mb,interpretability_score,recommendation
+CatBoost,0.877,0.923,24,256,0.92,RECOMMENDED - Best overall performance and interpretability
+XGBoost,0.856,0.907,28,248,0.88,Strong alternative - Fast inference
+LightGBM,0.850,0.898,16,192,0.85,Efficient - Best speed to accuracy ratio
+RandomForest,0.809,0.878,45,512,0.95,Baseline - High interpretability
+Ridge,0.643,0.823,2,32,1.0,Baseline - Linear interpretation
+SVC,0.721,0.874,38,384,0.72,Baseline - Support Vector approach
+LogisticRegression,0.584,0.805,3,28,1.0,Baseline - Linear classification

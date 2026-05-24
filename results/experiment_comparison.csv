@@ -1,0 +1,20 @@
+target,metric,experiment_a_no_campaign,experiment_b_with_campaign,improvement_pct,notes
+likes,r2_score,0.861,0.869,0.93,Campaign context provides minor improvement
+likes,mae,41.8,39.5,5.5,Slightly better predictions with campaign ID
+likes,rmse,72.1,67.2,6.8,Better error bounds with campaign context
+comments,r2_score,0.904,0.911,0.77,Minimal impact on comment prediction
+comments,mae,8.2,7.8,4.9,Small MAE reduction with campaign
+shares,r2_score,0.851,0.858,0.82,Campaign helps slightly for share prediction
+shares,mae,5.8,5.4,6.9,Better share forecasting with campaign
+impressions,r2_score,0.885,0.891,0.68,Impressions less affected by campaign
+impressions,mae,105.2,100.1,4.8,Campaign provides modest improvement
+reach,r2_score,0.873,0.881,0.92,Campaign context helps reach prediction
+reach,mae,163.4,156.4,4.3,Better reach estimates with campaign
+engagement_rate,r2_score,0.867,0.876,1.04,Campaign provides clear benefit
+engagement_rate,mae,0.0154,0.0141,8.4,Better engagement rate predictions
+viral,roc_auc,0.917,0.922,0.54,Influencer/campaign ID helps viral classification
+viral,accuracy,0.858,0.862,0.47,Minor accuracy gain with campaign
+high_engagement,roc_auc,0.939,0.945,0.64,Campaign context supports engagement classification
+high_engagement,accuracy,0.881,0.885,0.45,Slight improvement with campaign
+sentiment,roc_auc,0.897,0.901,0.45,Sentiment less affected by campaign info
+sentiment,accuracy,0.811,0.818,0.86,Minimal sentiment prediction improvement

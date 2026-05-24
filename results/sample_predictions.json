@@ -1,0 +1,151 @@
+[
+  {
+    "id": "example_instagram_1",
+    "platform": "Instagram",
+    "post_type": "Image",
+    "post_content": "Beautiful sunset at the beach! 🌅 #travel #adventure #nature",
+    "audience_age": 28,
+    "audience_gender": "Female",
+    "audience_location": "USA",
+    "audience_interests": "travel",
+    "sentiment_label": "Positive",
+    "publish_datetime": "2026-05-24 18:30:00",
+    "regression_predictions": {
+      "likes": {"predicted": 362, "lower_ci": 284, "upper_ci": 440, "confidence": 0.92},
+      "comments": {"predicted": 26, "lower_ci": 20, "upper_ci": 32, "confidence": 0.91},
+      "shares": {"predicted": 14, "lower_ci": 10, "upper_ci": 18, "confidence": 0.88},
+      "impressions": {"predicted": 4280, "lower_ci": 3420, "upper_ci": 5140, "confidence": 0.90},
+      "reach": {"predicted": 3120, "lower_ci": 2480, "upper_ci": 3760, "confidence": 0.89},
+      "engagement_rate": {"predicted": 0.088, "lower_ci": 0.073, "upper_ci": 0.103, "confidence": 0.87}
+    },
+    "classification_predictions": {
+      "viral_probability": 0.81,
+      "viral_confidence": 0.92,
+      "high_engagement_probability": 0.84,
+      "high_engagement_confidence": 0.93,
+      "sentiment_pred": "Positive",
+      "sentiment_confidence": 0.89
+    },
+    "recommendations": [
+      "Post between 6-8 PM for optimal reach (peak engagement hours)",
+      "Include 2-3 hashtags (current: 3 hashtags - good)",
+      "Emoji usage is excellent (1 emoji detected - optimal)",
+      "Post length is good (16 words - within optimal range)",
+      "Positive sentiment strongly predicts engagement",
+      "Expected engagement rate 8.8% - EXCELLENT",
+      "Likelihood of viral engagement: 81% - HIGH POTENTIAL"
+    ]
+  },
+  {
+    "id": "example_linkedin_2",
+    "platform": "LinkedIn",
+    "post_type": "Article",
+    "post_content": "5 AI Trends Shaping 2026 #AI #Technology #Innovation",
+    "audience_age": 42,
+    "audience_gender": "Male",
+    "audience_location": "Global",
+    "audience_interests": "business,technology",
+    "sentiment_label": "Positive",
+    "publish_datetime": "2026-05-24 08:30:00",
+    "regression_predictions": {
+      "likes": {"predicted": 258, "lower_ci": 202, "upper_ci": 314, "confidence": 0.90},
+      "comments": {"predicted": 19, "lower_ci": 15, "upper_ci": 23, "confidence": 0.89},
+      "shares": {"predicted": 11, "lower_ci": 8, "upper_ci": 14, "confidence": 0.86},
+      "impressions": {"predicted": 3850, "lower_ci": 3080, "upper_ci": 4620, "confidence": 0.88},
+      "reach": {"predicted": 2790, "lower_ci": 2232, "upper_ci": 3348, "confidence": 0.87},
+      "engagement_rate": {"predicted": 0.062, "lower_ci": 0.052, "upper_ci": 0.072, "confidence": 0.85}
+    },
+    "classification_predictions": {
+      "viral_probability": 0.69,
+      "viral_confidence": 0.88,
+      "high_engagement_probability": 0.73,
+      "high_engagement_confidence": 0.90,
+      "sentiment_pred": "Positive",
+      "sentiment_confidence": 0.91
+    },
+    "recommendations": [
+      "Post during weekday mornings (8-10 AM) - currently optimal",
+      "LinkedIn professional audience prefers article format",
+      "Use trending keywords: AI, Technology, Innovation (already present)",
+      "Consider adding data/statistics to boost engagement",
+      "Expected engagement rate 6.2% - GOOD for LinkedIn",
+      "Likelihood of viral engagement: 69% - MODERATE-HIGH",
+      "Professional content shows consistent performance"
+    ]
+  },
+  {
+    "id": "example_twitter_3",
+    "platform": "Twitter",
+    "post_type": "Text",
+    "post_content": "Quick tip: Use short concise threads for better reach #marketing",
+    "audience_age": 35,
+    "audience_gender": "Neutral",
+    "audience_location": "USA",
+    "audience_interests": "marketing",
+    "sentiment_label": "Positive",
+    "publish_datetime": "2026-05-24 10:00:00",
+    "regression_predictions": {
+      "likes": {"predicted": 172, "lower_ci": 127, "upper_ci": 217, "confidence": 0.86},
+      "comments": {"predicted": 12, "lower_ci": 8, "upper_ci": 16, "confidence": 0.84},
+      "shares": {"predicted": 8, "lower_ci": 5, "upper_ci": 11, "confidence": 0.82},
+      "impressions": {"predicted": 2840, "lower_ci": 2272, "upper_ci": 3408, "confidence": 0.85},
+      "reach": {"predicted": 1840, "lower_ci": 1472, "upper_ci": 2208, "confidence": 0.83},
+      "engagement_rate": {"predicted": 0.053, "lower_ci": 0.040, "upper_ci": 0.066, "confidence": 0.81}
+    },
+    "classification_predictions": {
+      "viral_probability": 0.56,
+      "viral_confidence": 0.82,
+      "high_engagement_probability": 0.60,
+      "high_engagement_confidence": 0.84,
+      "sentiment_pred": "Positive",
+      "sentiment_confidence": 0.87
+    },
+    "recommendations": [
+      "Keep it short - current length (13 words) is optimal for Twitter",
+      "Add 1-2 more hashtags (currently 1) to boost discoverability",
+      "Consider a call-to-action (CTA) to increase replies",
+      "Thread format could increase engagement by 15-20%",
+      "Expected engagement rate 5.3% - MODERATE for Twitter",
+      "Likelihood of viral engagement: 56% - MODERATE",
+      "Best times to post: mornings and late afternoon"
+    ]
+  },
+  {
+    "id": "example_facebook_4",
+    "platform": "Facebook",
+    "post_type": "Video",
+    "post_content": "Check out this amazing travel vlog from our latest adventure! 🎥 ✨ #travel #vlog",
+    "audience_age": 32,
+    "audience_gender": "Female",
+    "audience_location": "Global",
+    "audience_interests": "travel,video",
+    "sentiment_label": "Positive",
+    "publish_datetime": "2026-05-24 14:00:00",
+    "regression_predictions": {
+      "likes": {"predicted": 428, "lower_ci": 352, "upper_ci": 504, "confidence": 0.91},
+      "comments": {"predicted": 32, "lower_ci": 24, "upper_ci": 40, "confidence": 0.90},
+      "shares": {"predicted": 18, "lower_ci": 13, "upper_ci": 23, "confidence": 0.88},
+      "impressions": {"predicted": 5240, "lower_ci": 4192, "upper_ci": 6288, "confidence": 0.91},
+      "reach": {"predicted": 3680, "lower_ci": 2944, "upper_ci": 4416, "confidence": 0.90},
+      "engagement_rate": {"predicted": 0.102, "lower_ci": 0.085, "upper_ci": 0.119, "confidence": 0.89}
+    },
+    "classification_predictions": {
+      "viral_probability": 0.78,
+      "viral_confidence": 0.91,
+      "high_engagement_probability": 0.82,
+      "high_engagement_confidence": 0.92,
+      "sentiment_pred": "Positive",
+      "sentiment_confidence": 0.92
+    },
+    "recommendations": [
+      "Video content performs exceptionally well on Facebook",
+      "Current posting time (2 PM) is optimal for engagement",
+      "Positive sentiment + video format = HIGH ENGAGEMENT predicted",
+      "Multiple emojis (2) enhance emotional appeal",
+      "Expected engagement rate 10.2% - EXCELLENT",
+      "Likelihood of viral engagement: 78% - HIGH",
+      "Consider adding a question in description to boost comments",
+      "Expected 428 likes (±76) within 24 hours"
+    ]
+  }
+]
