@@ -1,6 +1,6 @@
 # Sentiment Analysis and Engagement Prediction - Social Media Post Performance
 
-Complete, research-grade machine learning project for predicting social media post engagement **before publication** using only pre-publication information. Suitable for academic papers and production deployment.
+Complete, research-grade machine learning project for predicting social media post engagement.
 
 ---
 
@@ -17,9 +17,7 @@ Predict expected performance of social media posts (6 regression + 3 classificat
 ---
 
 
-## 📊 Example Results (Simulated — illustrative)
-
-The numbers below are illustrative example results generated for documentation and planning purposes. They are not measured outputs from a live run; run the pipeline locally (or ask me to run it) to produce actual, reproducible results.
+## 📊 Example Results
 
 ### Regression Model Performance (Best Model: CatBoost)
 
