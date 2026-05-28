@@ -17,7 +17,7 @@ Predict expected performance of social media posts (6 regression + 3 classificat
 ---
 
 
-## 📊 Example Results
+## 📊 Results
 
 ### Regression Model Performance (Best Model: CatBoost)
 
@@ -59,7 +59,7 @@ Predict expected performance of social media posts (6 regression + 3 classificat
 
 ---
 
-## 📈 Example Predictions
+## 📈 Predictions
 
 ### ✅ Example 1: High-Performance Instagram Post
 
@@ -208,7 +208,7 @@ python main_fast.py --processed data/processed/cleaned_dataset.csv --optuna-tria
 
 ---
 
-## 🎓 Research Grade Features
+## Features
 
 ### Data Leakage Prevention
 ```python
@@ -872,12 +872,6 @@ MIT License - feel free to use this project in your research and applications.
 - Sentiment analysis using VADER and TextBlob
 - Hyperparameter optimization with Optuna
 - Interpretability insights from SHAP project
-
-## Contact
-
-For questions or feedback:
-- Open an issue on GitHub
-- Email: your.email@example.com
 
 ---
 
